@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Membuat Form Sederhana</title>
+    <link rel="stylesheet" href="filecss.css">
 </head>
-<body>
+<body class="body-html">
     <form>
-        <div>
+        <div class="div-label">
             <label>Nama</label> <br>
             <input name="nama" type="text" placeholder="Masukkan nama">
         </div>
 
-        <div>
+        <div class="div-label">
             <label>Alamat</label> <br>
             <input name="alamat" type="text" placeholder="Masukkan alamat">
         </div>
 
-        <div>
+        <div class="div-label">
             <button>Submit</button>
         </div>
     </form>
 
+    <div class="hasil">
 <?php # membuka tag PHP
 
 $nama = @$_GET['nama'];
@@ -38,6 +40,6 @@ if ($alamat) {
 
 # jangan lupa tutup tag PHP
 ?>
-
+</div>
 </body>
 </html>

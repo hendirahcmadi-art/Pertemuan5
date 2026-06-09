@@ -1,0 +1,17 @@
+.body-html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.div-label {
+    display: center;
+    justify-content: center;
+}
+
+.hasil {
+    text-align: center;
+    margin-top: 50px;
+}
